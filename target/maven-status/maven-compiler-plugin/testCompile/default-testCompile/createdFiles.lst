@@ -1,3 +1,5 @@
+com/travix/medusa/busyflights/service/supplier/CrazyAirServiceTest.class
+com/travix/medusa/busyflights/service/supplier/ToughJetServiceTest.class
 com/travix/medusa/busyflights/BusyFlightsApplicationTests.class
+com/travix/medusa/busyflights/integrationTests/BusyFlightsControllerTest.class
 com/travix/medusa/busyflights/service/BusyFlightsServiceTest.class
-com/travix/medusa/busyflights/controller/BusyFlightsControllerTest.class
