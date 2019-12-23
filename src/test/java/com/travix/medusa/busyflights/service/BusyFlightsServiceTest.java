@@ -16,7 +16,7 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.travix.medusa.busyflights.Config;
+import com.travix.medusa.busyflights.config.Config;
 import com.travix.medusa.busyflights.domain.SupplierEnum;
 import com.travix.medusa.busyflights.domain.busyflights.BusyFlightsRequest;
 import com.travix.medusa.busyflights.domain.busyflights.BusyFlightsResponse;
@@ -74,4 +74,9 @@ public class BusyFlightsServiceTest {
         busyFlightsResponse.setDepartureDate(LocalDateTime.now());
         return busyFlightsResponse;
     }
+
+    //TODO 1 This can include more test cases to include response from Tough jet
+    //TODO 2 Test case when no response is received from any supplier
+    //TODO 3 Test case when response from only one supplier is received
+
 }

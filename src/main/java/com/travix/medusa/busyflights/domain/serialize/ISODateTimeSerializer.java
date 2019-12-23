@@ -1,7 +1,6 @@
 package com.travix.medusa.busyflights.domain.serialize;
 
 import java.io.IOException;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 

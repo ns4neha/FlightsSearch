@@ -1,15 +1,12 @@
 package com.travix.medusa.busyflights.domain.busyflights;
 
-import java.time.LocalDateTime;
-
-import javax.validation.constraints.Future;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 import org.springframework.format.annotation.DateTimeFormat;
-
+/* Updating this class to implement validations on user request so that response object can be directly validated   */
 public class BusyFlightsRequest {
 
     @NotNull

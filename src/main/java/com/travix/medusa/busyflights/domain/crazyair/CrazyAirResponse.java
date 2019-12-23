@@ -1,11 +1,9 @@
 package com.travix.medusa.busyflights.domain.crazyair;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.travix.medusa.busyflights.domain.serialize.ISODateTimeSerializer;
 import com.travix.medusa.busyflights.domain.serialize.ISOLocalDateTimeDeSerializer;
 import com.travix.medusa.busyflights.domain.serialize.ISOLocalDateTimeSerializer;
 

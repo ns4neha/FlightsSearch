@@ -1,4 +1,4 @@
-package com.travix.medusa.busyflights.exception;
+package com.travix.medusa.busyflights.handlers;
 
 import static org.springframework.http.HttpStatus.Series.CLIENT_ERROR;
 import static org.springframework.http.HttpStatus.Series.SERVER_ERROR;

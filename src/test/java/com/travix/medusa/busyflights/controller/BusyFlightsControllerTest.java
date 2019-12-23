@@ -21,7 +21,7 @@ import com.travix.medusa.busyflights.domain.busyflights.BusyFlightsRequest;
 import com.travix.medusa.busyflights.domain.busyflights.BusyFlightsResponse;
 import com.travix.medusa.busyflights.domain.crazyair.CrazyAirResponse;
 import com.travix.medusa.busyflights.domain.toughjet.ToughJetResponse;
-import com.travix.medusa.busyflights.exception.RestTemplateResponseErrorHandler;
+import com.travix.medusa.busyflights.handlers.RestTemplateResponseErrorHandler;
 import org.apache.commons.math3.util.Precision;
 import org.junit.Before;
 import org.junit.Test;
@@ -36,6 +36,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.client.MockRestServiceServer;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.web.client.RestTemplate;
+
+/* This is ideally a functional test but for the same class, unit test should be written as well */
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -197,4 +199,7 @@ public class BusyFlightsControllerTest {
     private Double calculateFareFromToughJet(ToughJetResponse toughJetResponse){
         return Precision.round(toughJetResponse.getBasePrice() + toughJetResponse.getTax() - toughJetResponse.getDiscount(), 2) ;
     }
+
+    //TODO 1 Write unit test for BusyFlightsController
+    //TODO 2 Unit test cases for validation of fields in BusyFlightsRequest
 }

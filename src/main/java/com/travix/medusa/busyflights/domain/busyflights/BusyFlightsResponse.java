@@ -1,6 +1,5 @@
 package com.travix.medusa.busyflights.domain.busyflights;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
@@ -12,7 +11,6 @@ public class BusyFlightsResponse {
 
     private String airline;
     private SupplierEnum supplier ;
-    //This should be rounded to two decimal places
     private double fare ;
     private String departureAirportCode;
     private String destinationAirportCode;
