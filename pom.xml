@@ -8,8 +8,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Interview Test</name>
-	<description>This is a project skeleton for the Travix Medusa team interview test</description>
+	<name>Flights Search</name>
+	<description>This is a practice exercise to integrate response received from rest calls into so called busy flights solution</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -48,11 +48,6 @@
 			<version>6.0.2.Final</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.hibernate.validator</groupId>
-			<artifactId>hibernate-validator-annotation-processor</artifactId>
-			<version>6.0.2.Final</version>
-		</dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-math3</artifactId>
