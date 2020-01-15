@@ -1,16 +1,9 @@
-**Travix - Problem to be solved**
-
 **Background:**
 
 BusyFlights is a flights search solution which aggregates flight results initially from 2 different suppliers (CrazyAir and ToughJet). A future iteration (not part of the test) may add more suppliers.
 
-**Recommended duration of test:**
-
-Allocate no more than 90 minutes to complete this exercise. An incomplete solution is acceptable but documenting any remaining tasks and next steps is expected. 
-
 **What is required:**
 
-Use this GitHub repository as a base to implement the Busy Flights service that should produce an aggregated result from both CrazyAir and ToughJet.
 The result should be a JSON response which contains a list of flights ordered by fare which has the following attributes:
 
 **Busy Flights API**
@@ -89,13 +82,3 @@ The service should connect to the both the suppliers using HTTP.
 | outboundDateTime | ISO_INSTANT format |
 | inboundDateTime | ISO_INSTANT format |
 
-**What you need to provide:**
-
-- A solution that meets the above requirements.
-- The implementation should be made as close to 'production ready' as possible within the time constraints.
-
-It is fine to change any of the supplied application code, if you choose to do so please add comments to indicate what has changed and why.
-
-**Note**
-
-Please clone this project then create your own repository from it. Do not fork/branch this project when creating your solution as it will be visible to other applicants.
